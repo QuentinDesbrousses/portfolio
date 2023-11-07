@@ -1,12 +1,11 @@
 import React from "react";
 
-const Home = () => {
+const Dashboard = () => {
   return (
-    <div className="dark:bg-dark bg-light dark:text-light text-dark">
-      <div className="dark:bg-secondary">Hello World</div>
-      <button className="bg-d-cta">Click</button>
+    <div>
+      <div>DashBoard</div>
     </div>
   );
 };
 
-export default Home;
+export default Dashboard;

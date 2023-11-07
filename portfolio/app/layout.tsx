@@ -20,8 +20,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Providers>
-          {children}
-          <ThemeSwitcher />
+          <div className="min-h-screen bg-secondary text-dark dark:bg-d-secondary dark:text-light">
+            {children}
+            <ThemeSwitcher />
+          </div>
         </Providers>
       </body>
     </html>
